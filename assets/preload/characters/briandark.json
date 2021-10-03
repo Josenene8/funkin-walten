@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-30,
+				310
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				23,
+				372
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-55,
+				340
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				41
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Bon NOTE LEFT miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Bon Note Right Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-41,
+				334
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-14,
+				315
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Bon Down Note MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Bon Up note miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-70,
+				310
+			],
+			"loop": false,
+			"anim": "cough",
+			"fps": 24,
+			"name": "Bon Cough",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BrianStellsDARK_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "brian",
+	"flip_x": true,
+	"healthbar_colors": [
+		217,
+		179,
+		2
+	],
+	"camera_position": [
+		-40,
+		-360
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

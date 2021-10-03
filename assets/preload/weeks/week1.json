@@ -1,0 +1,19 @@
+{
+	"songs": [
+["protocol", "promobon", [84, 112, 205]],
+		["Sleepover", "littlebon", [30, 211, 247]],
+["caution", "brian", [217, 159, 2]]
+	],
+
+	"weekCharacters": [
+	],
+	"weekBackground": "halloween",
+
+	"storyName": "Company Introductory Tape",
+	"weekBefore": "week1",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

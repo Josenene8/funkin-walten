@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				280
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				116,
+				271
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-42,
+				282
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				41
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Bon NOTE LEFT miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Bon Note Right Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				98,
+				337
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				80,
+				235
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Bon Down Note MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Bon Up note miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				34,
+				290
+			],
+			"loop": false,
+			"anim": "cheer",
+			"fps": 24,
+			"name": "Bon Cheer",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PromoBon_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "promobon",
+	"flip_x": true,
+	"healthbar_colors": [
+		84,
+		112,
+		205
+	],
+	"camera_position": [
+		150,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

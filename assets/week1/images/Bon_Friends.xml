@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Bon_Friends.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="halloweem bg copy 20000" x="0" y="0" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20001" x="1868" y="0" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20002" x="3736" y="0" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20003" x="5604" y="0" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20004" x="0" y="1052" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20005" x="1868" y="1052" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20006" x="3736" y="1052" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20007" x="5604" y="1052" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20008" x="0" y="2104" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20009" x="1868" y="2104" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20010" x="3736" y="2104" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20011" x="5604" y="2104" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20012" x="0" y="3156" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20013" x="1868" y="3156" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20014" x="3736" y="3156" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20015" x="5604" y="3156" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20016" x="0" y="4208" width="1868" height="1052"/>
+	<SubTexture name="halloweem bg copy 20017" x="1868" y="4208" width="1868" height="1052"/>
+</TextureAtlas>
