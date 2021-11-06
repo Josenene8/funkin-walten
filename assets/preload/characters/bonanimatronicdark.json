@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				320
-			],
 			"loop": false,
+			"offsets": [
+				290,
+				540
+			],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Bon Idle Dance",
-			"indices": []
+			"indices": [],
+			"name": "Bon Idle Dance"
 		},
 		{
-			"offsets": [
-				276,
-				312
-			],
 			"loop": false,
+			"offsets": [
+				373,
+				557
+			],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Bon Note Right0",
-			"indices": []
+			"indices": [],
+			"name": "Bon Note Right0"
 		},
 		{
-			"offsets": [
-				149,
-				308
-			],
 			"loop": false,
-			"anim": "singRIGHT",
+			"offsets": [
+				303,
+				559
+			],
 			"fps": 24,
-			"name": "Bon NOTE LEFT0",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-60,
 				41
 			],
-			"loop": false,
-			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "Bon NOTE LEFT miss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Bon NOTE LEFT miss"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				62,
 				64
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "Bon Note Right Miss",
-			"indices": []
+			"indices": [],
+			"name": "Bon Note Right Miss"
 		},
 		{
-			"offsets": [
-				188,
-				333
-			],
 			"loop": false,
+			"offsets": [
+				338,
+				674
+			],
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Bon Up note0",
-			"indices": []
+			"indices": [],
+			"name": "Bon Up note0"
 		},
 		{
-			"offsets": [
-				140,
-				249
-			],
 			"loop": false,
-			"anim": "singDOWN",
+			"offsets": [
+				290,
+				540
+			],
 			"fps": 24,
-			"name": "Bon Down Note0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				210,
 				-28
 			],
-			"loop": false,
-			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "Bon Down Note MISS",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Bon Down Note MISS"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-19,
 				67
 			],
-			"loop": false,
-			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "Bon Up note miss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Bon Up note miss"
 		},
 		{
-			"offsets": [
-				0,
-				43
-			],
 			"loop": false,
-			"anim": "glitch",
+			"offsets": [
+				293,
+				579
+			],
 			"fps": 24,
-			"name": "Bon Glitch",
-			"indices": []
+			"anim": "blood",
+			"indices": [],
+			"name": "Bon Blood"
 		}
 	],
 	"no_antialiasing": false,
@@ -125,9 +125,9 @@
 		192
 	],
 	"camera_position": [
-		10,
-		-390
+		-60,
+		-590
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.9
 }

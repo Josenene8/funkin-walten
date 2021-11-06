@@ -1,0 +1,36 @@
+{
+	"songs": [
+		[
+			"Stranger",
+			"pr",
+			[
+				225,
+				137,
+				30
+			]
+		],
+		[
+			"Boogeyman",
+			"pranim",
+			[
+				252,
+				252,
+				0
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "mysterioushouse",
+	"weekCharacters": [
+	],
+	"storyName": "The Mysterious House",
+	"weekName": "Week A",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "weeka",
+	"startUnlocked": true
+}

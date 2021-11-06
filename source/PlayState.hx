@@ -147,6 +147,10 @@ class PlayState extends MusicBeatState
 	public var gfSpeed:Int = 1;
 	public var health:Float = 1;
 	public var combo:Int = 0;
+	
+		public var accuracy:Float = 0.00;
+
+	private var accuracyDefault:Float = 0.00;
 
 	private var healthBarBG:AttachedSprite;
 	public var healthBar:FlxBar;
@@ -178,6 +182,8 @@ class PlayState extends MusicBeatState
 
 	var halloweenBG:BGSprite;
 	var wiresBG:BGSprite;
+	var houseBG:BGSprite;
+	var gfBG:BGSprite;
 	var BrianBG:BGSprite;
 	var halloweenWhite:BGSprite;
 	var blackBG:BGSprite;
@@ -424,12 +430,68 @@ class PlayState extends MusicBeatState
 				case 'promostage': //Week 1
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('stage_bg', -250, -100, ['stage bg0', 'halloweem bg lightning strike']);
+					houseBG = new BGSprite('stage_2_bg', -250, -100, ['stage2 bg20', 'halloweem bg lightning strike']);
 					
 				} else {
 					halloweenBG = new BGSprite('stage_low', -200, -100);
+					houseBG = new BGSprite('stage_2_bg', -250, -100, ['stage2 bg20', 'halloweem bg lightning strike']);
 				}
 				add(halloweenBG);
+				add(houseBG);
+				
+				case 'mysterioushouse': //Week A
+				if(!ClientPrefs.lowQuality) {
+					halloweenBG = new BGSprite('house_bg', -250, -100, ['house bg0', 'halloweem bg lightning strike']);
+					houseBG = new BGSprite('house_bg2', -250, -100, ['house bg20', 'halloweem bg lightning strike']);
+					
+				} else {
+					halloweenBG = new BGSprite('house_bg_low', -200, -100);
+					houseBG = new BGSprite('house_bg2', -250, -100, ['house bg20', 'halloweem bg lightning strike']);
+				}
+				add(halloweenBG);
+				add(houseBG);
+				
+			case 'mhdark': //Week A
+				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-mh';
+				GameOverSubstate.loopSoundName = 'gameOver-mh';
+				GameOverSubstate.endSoundName = 'gameOverEnd-mh';
+				GameOverSubstate.characterName = 'bf-mh-dead';
+				if(!ClientPrefs.lowQuality) {
+					halloweenBG = new BGSprite('dark_bg', -250, -100, ['dark bg0', 'halloweem bg lightning strike']);
+					houseBG = new BGSprite('dark_2_bg', -250, -100, ['dark 2 bg20', 'halloweem bg lightning strike']);
+					gfBG = new BGSprite('dark_3_bg', -250, -100, ['dark 3 bg20', 'halloweem bg lightning strike']);
+					
+				} else {
+					halloweenBG = new BGSprite('dark_bg_low', -200, -100);
+					houseBG = new BGSprite('dark_2_bg', -250, -100, ['dark 2 bg20', 'halloweem bg lightning strike']);
+					gfBG = new BGSprite('dark_3_bg', -250, -100, ['dark 3 bg20', 'halloweem bg lightning strike']);
+				}
+				add(halloweenBG);
+				add(houseBG);
+				add(gfBG);
 
+case 'black': //Week 1
+				if(!ClientPrefs.lowQuality) {
+					halloweenBG = new BGSprite('black_bg', -250, -100, ['black bg0', 'halloweem bg lightning strike']);
+
+					
+				} else {
+					halloweenBG = new BGSprite('black_bg', -200, -100);
+				}
+				add(halloweenBG);
+				//add(houseBG);
+				
+				case 'forest': //Week 1
+				if(!ClientPrefs.lowQuality) {
+					halloweenBG = new BGSprite('carrotbon_bg', -250, -100, ['carrotbon bg0', 'halloweem bg lightning strike']);
+
+					
+				} else {
+					halloweenBG = new BGSprite('carrotbon_bg', -200, -100);
+				}
+				add(halloweenBG);
+				
+				
 			case 'philly': //Week 3
 				if(!ClientPrefs.lowQuality) {
 					var bg:BGSprite = new BGSprite('philly/sky', -100, 0, 0.1, 0.1);
@@ -1045,6 +1107,16 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 
+					case 'protocol':
+					startVideo('Cutscene1');
+						case 'sleepover':
+					startVideo('Cutscene2');
+				case 'caution':
+					startVideo('Cutscene3');
+						case 'stranger':
+					startVideo('MH 1');
+					case 'boogeyman':
+					startVideo('MH 2');
 				default:
 					startCountdown();
 			}
@@ -1054,6 +1126,7 @@ class PlayState extends MusicBeatState
 		}
 		RecalculateRating();
 
+		
 		//PRECACHING MISS SOUNDS BECAUSE I THINK THEY CAN LAG PEOPLE AND FUCK THEM UP IDK HOW HAXE WORKS
 		CoolUtil.precacheSound('missnote1');
 		CoolUtil.precacheSound('missnote2');
@@ -2114,15 +2187,20 @@ class PlayState extends MusicBeatState
 				boyfriendIdleTime = 0;
 			}
 		}
-
+		
+		
+		if (dad.curCharacter == 'bonanimatronicdark' && SONG.song.toLowerCase() == 'caution' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.002;
+		
+		if (dad.curCharacter == 'pranimatronicdark' && SONG.song.toLowerCase() == 'Boogeyman' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.002;
+							
 		super.update(elapsed);
 
 		if(ratingString == '?') {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingString;
 		} else {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingString + ' (' + Math.floor(ratingPercent * 100) + '%)';
-		}
-
+		}		
+		
 		if(cpuControlled) {
 			botplaySine += 180 * elapsed;
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
@@ -3244,7 +3322,6 @@ class PlayState extends MusicBeatState
 			pixelShitPart1 = 'weeb/pixelUI/';
 			pixelShitPart2 = '-pixel';
 		}
-
 		rating.loadGraphic(Paths.image(pixelShitPart1 + daRating + pixelShitPart2));
 		rating.screenCenter();
 		rating.x = coolText.x - 40;
@@ -3867,7 +3944,7 @@ class PlayState extends MusicBeatState
 				}
 			}
 			
-			if (dad.curCharacter == 'bonanimatronicdark' && SONG.song.toLowerCase() == 'caution')
+			if (dad.curCharacter == 'bonanimdarkalt' && SONG.song.toLowerCase() == 'caution')
 			{
 				switch (curStep)
 				{
@@ -3877,6 +3954,18 @@ class PlayState extends MusicBeatState
 						remove(blackBG);
 				}
 			}
+			
+			if (SONG.song.toLowerCase() == 'boogeyman' && ratingPercent >= 0.8){
+				switch (curStep)
+				{
+					case 911:
+						remove(gf);
+					gf = new Character(1050, 100, 'gfmhdark');
+					add(gf);
+						remove(gfBG);
+						FlxG.camera.flash(FlxColor.WHITE, 4);
+					}
+					}
 
 		if(curStep == lastStepHit) {
 			return;

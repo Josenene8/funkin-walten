@@ -48,9 +48,9 @@ class TitleState extends MusicBeatState
 
 	var wackyImage:FlxSprite;
 
-	var easterEggEnabled:Bool = false; //Disable this to hide the easter egg
-	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.B]; //bb stands for bbpanzu cuz he wanted this lmao
-	var lastKeysPressed:Array<FlxKey> = [];
+	var easterEggRocketEnabled:Bool = true; //Disable this to hide the easter egg
+	var easterEggRocketKeyCombination:Array<FlxKey> = [FlxKey.S, FlxKey.O, FlxKey.S]; //bb stands for bbpanzu cuz he wanted this lmao
+	var RocketlastKeysPressed:Array<FlxKey> = [];
 
 	override public function create():Void
 	{
@@ -124,6 +124,8 @@ class TitleState extends MusicBeatState
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
+	
+	private static var vocals:FlxSound = null;
 
 	function startIntro()
 	{
@@ -166,10 +168,10 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		logoBl = new FlxSprite(-150, 120);
+		logoBl = new FlxSprite(50, 120);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
-		logoBl.screenCenter(X);
+		//logoBl.screenCenter(X);
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
@@ -177,7 +179,7 @@ class TitleState extends MusicBeatState
 		// logoBl.color = FlxColor.BLACK;
 
 		swagShader = new ColorSwap();
-		if(!FlxG.save.data.psykaEasterEgg || !easterEggEnabled) {
+		if(!FlxG.save.data.psykaEasterEgg || !easterEggRocketEnabled) {
 			gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 			gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
 			gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
@@ -203,7 +205,7 @@ class TitleState extends MusicBeatState
 		titleText.antialiasing = ClientPrefs.globalAntialiasing;
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
-		// titleText.screenCenter(X);
+		//titleText.screenCenter(X);
 		add(titleText);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
@@ -320,49 +322,68 @@ class TitleState extends MusicBeatState
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 			}
-			else if(easterEggEnabled)
+			else if(easterEggRocketEnabled)
 			{
-				var finalKey:FlxKey = FlxG.keys.firstJustPressed();
-				if(finalKey != FlxKey.NONE) {
-					lastKeysPressed.push(finalKey); //Convert int to FlxKey
-					if(lastKeysPressed.length > easterEggKeyCombination.length)
+				var finalKey2:FlxKey = FlxG.keys.firstJustPressed();
+				if(finalKey2 != FlxKey.NONE) {
+					RocketlastKeysPressed.push(finalKey2); //Convert int to FlxKey
+					if(RocketlastKeysPressed.length > easterEggRocketKeyCombination.length)
 					{
-						lastKeysPressed.shift();
+						RocketlastKeysPressed.shift();
 					}
 					
-					if(lastKeysPressed.length == easterEggKeyCombination.length)
+					if(RocketlastKeysPressed.length == easterEggRocketKeyCombination.length)
 					{
 						var isDifferent:Bool = false;
-						for (i in 0...lastKeysPressed.length) {
-							if(lastKeysPressed[i] != easterEggKeyCombination[i]) {
+						for (i in 0...RocketlastKeysPressed.length) {
+							if(RocketlastKeysPressed[i] != easterEggRocketKeyCombination[i]) {
 								isDifferent = true;
 								break;
 							}
 						}
 
-						if(!isDifferent) {
+						if (!isDifferent) {
+							var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('r'));
+							bg.setGraphicSize(FlxG.width, FlxG.height);
+			bg.screenCenter();
+							add(bg);
+							FlxG.sound.music.stop();
+							destroyFreeplayVocals();
+							//FlxG.camera.flash(FlxColor.RED, 1);
+							transitioning = true;
 							trace('Easter egg triggered!');
 							FlxG.save.data.psykaEasterEgg = !FlxG.save.data.psykaEasterEgg;
-							FlxG.sound.play(Paths.sound('secretSound'));
-
-							var black:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-							black.alpha = 0;
-							add(black);
-
-							FlxTween.tween(black, {alpha: 1}, 1, {onComplete:
-								function(twn:FlxTween) {
-									FlxTransitionableState.skipNextTransIn = true;
-									FlxTransitionableState.skipNextTransOut = true;
-									MusicBeatState.switchState(new TitleState());
-								}
-							});
-							lastKeysPressed = [];
+							//FlxG.sound.play(Paths.sound('secretSound'));
+							
+			PlayState.SONG = Song.loadFromJson('remember', 'remember');
+			PlayState.isStoryMode = false;
+			PlayState.storyDifficulty = 2;
+			PlayState.storyWeek = 1;
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			new FlxTimer().start(2, function(tmr:FlxTimer)
+			{
+				LoadingState.loadAndSwitchState(new PlayState());
+				RocketlastKeysPressed = [];
 							closedState = true;
 							transitioning = true;
+				
+			});
+
+							//lastKeysPressed = [];
+							//closedState = true;
+							//transitioning = true;
 						}
 					}
 				}
+				
+			
+			
 			}
+			
+			
+			
+			
 		}
 
 		if (pressedEnter && !skippedIntro)
@@ -377,6 +398,14 @@ class TitleState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+	}
+	
+	public static function destroyFreeplayVocals() {
+		if(vocals != null) {
+			vocals.stop();
+			vocals.destroy();
+		}
+		vocals = null;
 	}
 
 	function createCoolText(textArray:Array<String>, ?offset:Float = 0)

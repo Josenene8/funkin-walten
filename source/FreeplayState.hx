@@ -44,6 +44,10 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
+	
+	//var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
+	//var easterEggKeyCombination:Array<FlxKey> = [FlxKey.R, FlxKey.O, FlxKey.C, FlxKey.E, FlxKey.T]; //bb stands for bbpanzu cuz he wanted this lmao
+	//var lastKeysPressed:Array<FlxKey> = [];
 
 	override function create()
 	{
@@ -302,6 +306,7 @@ class FreeplayState extends MusicBeatState
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
+
 		super.update(elapsed);
 	}
 
@@ -399,6 +404,8 @@ class FreeplayState extends MusicBeatState
 		diffText.x -= diffText.width / 2;
 	}
 }
+
+
 
 class SongMetadata
 {

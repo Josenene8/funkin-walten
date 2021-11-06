@@ -26,6 +26,10 @@ class CreditsState extends MusicBeatState
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 	['The Walten Files Mod'],
 		['Froakii',		'froakii',		'Programmer, Composer, Artist/Animator, Chart Editor',					'https://twitter.com/froakiii',	0xFF00008B],
+		['KrysP',		'krysp',		'Artist/Animator for the Mysterious House Week',					'https://www.instagram.com/crystalsketcher/',	0xFFFFFF00],
+		['Mizuki Wolf',		'mizuki',		'Artist for the Mysterious House cover',					'https://twitter.com/MizukiiWolf',	0xFFFF748C],
+		['Blasterpaster',		'blasterpaster',		'Artist for improved icons',					'https://twitter.com/blastersucks',	0xFF61B5F6],
+		['Logan',		'logan',		'Voice Actor for Pumpkin Rabbit',					'https://twitter.com/compunzer1241',	0xFFBD9AFF],
 		['Martin Walls',		'martinwalls',		'Creator of The Walten Files',					'https://twitter.com/smiles_bunny',	0xFF40E0D0],
 			[''],
 	['Psych Engine Team'],
