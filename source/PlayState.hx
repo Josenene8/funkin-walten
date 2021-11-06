@@ -439,7 +439,11 @@ class PlayState extends MusicBeatState
 				add(halloweenBG);
 				add(houseBG);
 				
-				case 'mysterioushouse': //Week A
+			case 'mysterioushouse': //Week A
+					GameOverSubstate.deathSoundName = 'fnf_loss_sfx-mh';
+				GameOverSubstate.loopSoundName = 'gameOver-mh';
+				GameOverSubstate.endSoundName = 'gameOverEnd-mh';
+				GameOverSubstate.characterName = 'bf-mh-dead';
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('house_bg', -250, -100, ['house bg0', 'halloweem bg lightning strike']);
 					houseBG = new BGSprite('house_bg2', -250, -100, ['house bg20', 'halloweem bg lightning strike']);
@@ -2189,9 +2193,9 @@ case 'black': //Week 1
 		}
 		
 		
-		if (dad.curCharacter == 'bonanimatronicdark' && SONG.song.toLowerCase() == 'caution' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.002;
+		if (dad.curCharacter == 'bonanimatronicdark' && SONG.song.toLowerCase() == 'caution' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.001;
 		
-		if (dad.curCharacter == 'pranimatronicdark' && SONG.song.toLowerCase() == 'Boogeyman' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.002;
+		if (dad.curCharacter == 'pranimatronicdark' && SONG.song.toLowerCase() == 'boogeyman' && CoolUtil.difficultyString() == 'HARD' && (dad.animation.curAnim.name.startsWith('sing'))) health -= 0.001;
 							
 		super.update(elapsed);
 
