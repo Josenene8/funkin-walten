@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				206,
+				500
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				250,
+				483
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				109,
+				339
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				241,
+				536
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				201,
+				342
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cartoon_JollyGhost_FNF_assets",
+	"position": [
+		-40,
+		300
+	],
+	"healthicon": "jg",
+	"flip_x": true,
+	"healthbar_colors": [
+		167,
+		13,
+		0
+	],
+	"camera_position": [
+		-190,
+		-680
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

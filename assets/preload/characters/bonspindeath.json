@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				458
+			],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				-12
+			],
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF Dead Loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				117
+			],
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "Bf dies"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SpinBonDeath",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bonspin",
+	"flip_x": true,
+	"healthbar_colors": [
+		81,
+		134,
+		237
+	],
+	"camera_position": [
+		-40,
+		290
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

@@ -1,114 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				290,
 				540
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "idle",
-			"indices": [],
-			"name": "Bon Idle Dance"
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				373,
 				557
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Bon Note Right0"
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				303,
 				559
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Bon NOTE LEFT0"
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-60,
-				41
+				288,
+				644
 			],
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "Bon NOTE LEFT miss"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				62,
-				64
-			],
-			"fps": 24,
-			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "Bon Note Right Miss"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				338,
-				674
-			],
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Bon Up note0"
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				290,
 				540
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Bon Down Note0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				210,
-				-28
-			],
 			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Bon Down Note MISS"
+			"name": "Bon Down Note0",
+			"indices": []
 		},
 		{
-			"loop": false,
-			"offsets": [
-				-19,
-				67
-			],
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Bon Up note miss"
-		},
-		{
-			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "blood",
-			"indices": [],
-			"name": "Bon Blood"
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

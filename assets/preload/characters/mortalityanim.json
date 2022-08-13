@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				540
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				503,
+				557
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				353,
+				589
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				689,
+				584
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				390,
+				400
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				162,
+				542
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "transform",
+			"indices": [],
+			"name": "Bon Transform"
+		},
+		{
+			"offsets": [
+				310,
+				512
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "point",
+			"indices": [],
+			"name": "Bon Pointing"
+		},
+		{
+			"offsets": [
+				720,
+				537
+			],
+			"loop": false,
+			"anim": "preclawswipe",
+			"fps": 24,
+			"name": "Bon Claw Prepare0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				288,
+				431
+			],
+			"loop": false,
+			"anim": "swipeleft",
+			"fps": 24,
+			"name": "Bon Claw Swipe Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				660,
+				441
+			],
+			"anim": "swiperight",
+			"fps": 24,
+			"name": "Bon Claw Swipe Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ANIMATRONIC_Mortality_FNF_assets",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "mortalityanim",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		87,
+		0
+	],
+	"camera_position": [
+		-330,
+		-640
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

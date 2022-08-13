@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="toyshop_bg_2.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JollyAndSad0000" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0001" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0002" x="4096" y="0" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0003" x="4096" y="0" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0004" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0005" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0006" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0007" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0008" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0009" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0010" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0011" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0012" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0013" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0014" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0015" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0016" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0017" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0018" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0019" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0020" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0021" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0022" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0023" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0024" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0025" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0026" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0027" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0028" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="JollyAndSad0029" x="0" y="2048" width="4096" height="2048"/>
+</TextureAtlas>

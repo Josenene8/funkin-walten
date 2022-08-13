@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				37,
+				-22
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-343,
+				68
+			],
+			"loop": false,
+			"anim": "sophie",
+			"fps": 24,
+			"name": "Sophie",
+			"indices": []
+		},
+		{
+			"offsets": [
+				54,
+				-101
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				-88
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				32,
+				-6
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				-128
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				183,
+				204
+			],
+			"loop": false,
+			"anim": "explode",
+			"fps": 24,
+			"name": "Bon Explode0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BonPlush_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "bonplush",
+	"flip_x": true,
+	"healthbar_colors": [
+		70,
+		119,
+		192
+	],
+	"camera_position": [
+		150,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

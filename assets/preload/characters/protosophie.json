@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				50
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-129,
+				48
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-129,
+				48
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				49
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				48
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE RIGHT0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Proto_Sophie_Assets",
+	"position": [
+		-210,
+		210
+	],
+	"healthicon": "protosophie",
+	"flip_x": false,
+	"healthbar_colors": [
+		86,
+		69,
+		101
+	],
+	"camera_position": [
+		300,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

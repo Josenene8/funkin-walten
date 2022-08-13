@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PICO_Char.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PICO Idle dance0000" x="0" y="0" width="1071" height="910" frameX="0" frameY="-21" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0001" x="0" y="0" width="1071" height="910" frameX="0" frameY="-21" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0002" x="1071" y="0" width="1066" height="936" frameX="-5" frameY="0" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0003" x="1071" y="0" width="1066" height="936" frameX="-5" frameY="0" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0004" x="2137" y="0" width="1023" height="930" frameX="-20" frameY="-4" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0005" x="2137" y="0" width="1023" height="930" frameX="-20" frameY="-4" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0006" x="0" y="936" width="1005" height="912" frameX="-33" frameY="-11" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0007" x="0" y="936" width="1005" height="912" frameX="-33" frameY="-11" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0008" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0009" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0010" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0011" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0012" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+	<SubTexture name="PICO Idle dance0013" x="1005" y="936" width="1010" height="917" frameX="-26" frameY="-8" frameWidth="1071" frameHeight="936"/>
+</TextureAtlas>

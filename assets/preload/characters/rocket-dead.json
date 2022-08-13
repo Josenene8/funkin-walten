@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				54,
+				-37
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Bon Static",
+			"indices": []
+		},
+		{
+			"offsets": [
+				54,
+				-37
+			],
+			"loop": true,
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Bon Static",
+			"indices": []
+		},
+		{
+			"offsets": [
+				54,
+				-37
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Bon Static",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Rocket_Gameover",
+	"position": [
+		-850,
+		200
+	],
+	"healthicon": "rocket",
+	"flip_x": true,
+	"healthbar_colors": [
+		140,
+		140,
+		140
+	],
+	"camera_position": [
+		370,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

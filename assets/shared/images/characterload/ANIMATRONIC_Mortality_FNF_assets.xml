@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ANIMATRONIC_Mortality_FNF_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bon Down Note0000" x="0" y="0" width="1183" height="1179" frameX="0" frameY="-6" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0001" x="0" y="0" width="1183" height="1179" frameX="0" frameY="-6" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0002" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0003" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0004" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0005" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0006" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0007" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0008" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0009" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Down Note0010" x="1183" y="0" width="1180" height="1173" frameX="-4" frameY="0" frameWidth="1184" frameHeight="1185"/>
+	<SubTexture name="Bon Idle Dance0000" x="2363" y="0" width="975" height="1301" frameX="0" frameY="-20" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0001" x="2363" y="0" width="975" height="1301" frameX="0" frameY="-20" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0002" x="3338" y="0" width="957" height="1314" frameX="-42" frameY="-13" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0003" x="3338" y="0" width="957" height="1314" frameX="-42" frameY="-13" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0004" x="4295" y="0" width="858" height="1318" frameX="-107" frameY="-12" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0005" x="5153" y="0" width="858" height="1318" frameX="-107" frameY="-12" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0006" x="6011" y="0" width="851" height="1329" frameX="-112" frameY="-6" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0007" x="6862" y="0" width="851" height="1329" frameX="-112" frameY="-6" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0008" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0009" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0010" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0011" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0012" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Idle Dance0013" x="0" y="1329" width="847" height="1335" frameX="-116" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon NOTE LEFT0000" x="847" y="1329" width="896" height="1387" frameX="0" frameY="0" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0001" x="847" y="1329" width="896" height="1387" frameX="0" frameY="0" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0002" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0003" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0004" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0005" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0006" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0007" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0008" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0009" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0010" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0011" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0012" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0013" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0014" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0015" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon NOTE LEFT0016" x="1743" y="1329" width="899" height="1382" frameX="-17" frameY="-5" frameWidth="916" frameHeight="1387"/>
+	<SubTexture name="Bon Note Right0000" x="2642" y="1329" width="962" height="1341" frameX="0" frameY="0" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0001" x="2642" y="1329" width="962" height="1341" frameX="0" frameY="0" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0002" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0003" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0004" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0005" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0006" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0007" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0008" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0009" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0010" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0011" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0012" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0013" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0014" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0015" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Note Right0016" x="3604" y="1329" width="956" height="1349" frameX="-13" frameY="-3" frameWidth="969" frameHeight="1352"/>
+	<SubTexture name="Bon Pointing0000" x="4560" y="1329" width="1162" height="1277" frameX="-16" frameY="-1" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0001" x="4560" y="1329" width="1162" height="1277" frameX="-16" frameY="-1" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0002" x="5722" y="1329" width="1162" height="1285" frameX="-8" frameY="0" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0003" x="5722" y="1329" width="1162" height="1285" frameX="-8" frameY="0" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0004" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0005" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0006" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0007" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0008" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0009" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0010" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0011" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0012" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0013" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0014" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0015" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0016" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0017" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0018" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0019" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0020" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0021" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0022" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0023" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0024" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0025" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0026" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0027" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0028" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0029" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0030" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0031" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0032" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0033" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0034" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0035" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0036" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0037" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0038" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0039" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0040" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0041" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0042" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0043" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0044" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0045" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0046" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0047" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0048" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0049" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0050" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0051" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0052" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0053" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0054" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0055" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0056" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0057" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0058" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0059" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0060" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0061" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0062" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0063" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0064" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0065" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0066" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0067" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0068" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0069" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0070" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0071" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0072" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0073" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0074" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0075" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0076" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0077" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0078" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0079" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0080" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0081" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0082" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0083" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0084" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0085" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0086" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0087" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0088" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0089" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0090" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0091" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0092" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0093" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0094" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0095" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0096" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0097" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0098" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0099" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0100" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0101" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0102" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0103" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0104" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0105" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0106" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0107" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0108" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0109" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0110" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0111" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0112" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0113" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0114" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0115" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0116" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0117" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0118" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0119" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Pointing0120" x="6884" y="1329" width="1170" height="1282" frameX="0" frameY="-3" frameWidth="1178" frameHeight="1285"/>
+	<SubTexture name="Bon Transform0000" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0001" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0002" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0003" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0004" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0005" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0006" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0007" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0008" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0009" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0010" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0011" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0012" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0013" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0014" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0015" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0016" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0017" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0018" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0019" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0020" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0021" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0022" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0023" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0024" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0025" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0026" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0027" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0028" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0029" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0030" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0031" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0032" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0033" x="0" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0034" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0035" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0036" x="2876" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0037" x="2876" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0038" x="4314" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0039" x="4314" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0040" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0041" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0042" x="5752" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0043" x="5752" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0044" x="0" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0045" x="0" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0046" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0047" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0048" x="1438" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0049" x="1438" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0050" x="2876" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0051" x="2876" y="4059" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0052" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0053" x="1438" y="2716" width="1438" height="1343" frameX="0" frameY="-13" frameWidth="1438" frameHeight="1356"/>
+	<SubTexture name="Bon Transform0054" x="6011" y="0" width="851" height="1329" frameX="-255" frameY="-6" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0055" x="6862" y="0" width="851" height="1329" frameX="-255" frameY="-6" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0056" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0057" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0058" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0059" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0060" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Transform0061" x="0" y="1329" width="847" height="1335" frameX="-259" frameY="0" frameWidth="999" frameHeight="1335"/>
+	<SubTexture name="Bon Up note0000" x="4314" y="4059" width="1658" height="1366" frameX="0" frameY="0" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0001" x="4314" y="4059" width="1658" height="1366" frameX="0" frameY="0" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0002" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0003" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0004" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0005" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0006" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0007" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0008" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0009" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0010" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0011" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0012" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+	<SubTexture name="Bon Up note0013" x="5972" y="4059" width="1629" height="1352" frameX="-42" frameY="-12" frameWidth="1671" frameHeight="1366"/>
+</TextureAtlas>

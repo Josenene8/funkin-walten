@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				290,
 				540
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Bon Idle Dance",
-			"indices": []
+			"indices": [],
+			"name": "Bon Idle Dance"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-60,
 				41
 			],
-			"loop": false,
-			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				62,
 				64
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"loop": false,
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				210,
 				-28
 			],
-			"loop": false,
-			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-19,
 				67
 			],
-			"loop": false,
-			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Bon Blood"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				293,
 				579
 			],
-			"loop": false,
-			"anim": "blood",
 			"fps": 24,
-			"name": "Bon Blood",
-			"indices": []
+			"anim": "blood",
+			"indices": [],
+			"name": "Bon Blood"
 		}
 	],
 	"no_antialiasing": false,
@@ -125,8 +125,8 @@
 		192
 	],
 	"camera_position": [
-		-60,
-		-590
+		-290,
+		-760
 	],
 	"sing_duration": 4,
 	"scale": 0.9

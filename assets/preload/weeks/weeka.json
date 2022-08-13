@@ -19,7 +19,6 @@
 			]
 		]
 	],
-	"hideFreeplay": false,
 	"weekBackground": "mysterioushouse",
 	"weekCharacters": [
 	],
@@ -30,7 +29,10 @@
 		113,
 		253
 	],
-	"hideStoryMode": false,
-	"weekBefore": "weeka",
+		"hideStoryMode": false,
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true,
+	"weekBefore": "week2",
 	"startUnlocked": true
 }

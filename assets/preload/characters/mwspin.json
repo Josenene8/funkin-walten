@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				100
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "martin idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				179,
+				51
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "martin sing LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				50
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "martin sing RIGHT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				171
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "martin sing UP0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				6
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "martin sing DOWN0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				57
+			],
+			"fps": 24,
+			"anim": "backspin",
+			"indices": [],
+			"name": "martin back spin"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				92
+			],
+			"fps": 24,
+			"anim": "leftspin",
+			"indices": [],
+			"name": "martin sing LEFT spin"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				92
+			],
+			"fps": 24,
+			"anim": "rightspin",
+			"indices": [],
+			"name": "martin sing RIGHT spin"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				100
+			],
+			"fps": 24,
+			"anim": "frontspin",
+			"indices": [],
+			"name": "martin spin 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				92
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "martin sing LEFT spin",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				92
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "martin sing RIGHT spin",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				96
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "martin spin 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				57
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "martin back spin",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/MW_Spin_FNF_assets",
+	"position": [
+		0,
+		60
+	],
+	"healthicon": "martinspin",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		100,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

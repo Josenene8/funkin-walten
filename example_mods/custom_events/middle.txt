@@ -1,0 +1,2 @@
+enables hotline like middle scroll (aka super cool gimmick dub)
+Value 1: 0 OFF 1 ON

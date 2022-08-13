@@ -229,10 +229,8 @@ class MenuCharacterEditorState extends MusicBeatState
 		char.animation.addByPrefix('idle', characterFile.idle_anim, 24);
 		if(curTypeSelected == 1) char.animation.addByPrefix('confirm', characterFile.confirm_anim, 24, false);
 
-		if(characterFile.scale != 1) {
-			char.scale.set(characterFile.scale, characterFile.scale);
-			char.updateHitbox();
-		}
+		char.scale.set(characterFile.scale, characterFile.scale);
+		char.updateHitbox();
 		char.animation.play('idle');
 
 		confirmDescText.visible = (curTypeSelected == 1);
@@ -281,7 +279,6 @@ class MenuCharacterEditorState extends MusicBeatState
 			FlxG.sound.volumeDownKeys = TitleState.volumeDownKeys;
 			FlxG.sound.volumeUpKeys = TitleState.volumeUpKeys;
 			if(FlxG.keys.justPressed.ESCAPE) {
-				FlxG.mouse.visible = false;
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			}
@@ -343,8 +340,8 @@ class MenuCharacterEditorState extends MusicBeatState
 
 		#if sys
 		var fullPath:String = null;
-		var jsonLoaded = cast Json.parse(Json.stringify(_file)); //Exploit(???) for accessing a private variable
-		if(jsonLoaded.__path != null) fullPath = jsonLoaded.__path; //I'm either a genious or dangerously dumb
+		@:privateAccess
+		if(_file.__path != null) fullPath = _file.__path;
 
 		if(fullPath != null) {
 			var rawJson:String = File.getContent(fullPath);

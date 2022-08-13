@@ -49,6 +49,8 @@ typedef DialogueLine = {
 	var text:Null<String>;
 	var boxState:Null<String>;
 	var speed:Null<Float>;
+	//var skipdelay:Null<Int>;
+	//var append:Null<Bool>; //thinkin bout having some rpg type text shit.
 }
 
 class DialogueCharacter extends FlxSprite
@@ -67,7 +69,8 @@ class DialogueCharacter extends FlxSprite
 	public var startingPos:Float = 0; //For center characters, it works as the starting Y, for everything else it works as starting X
 	public var isGhost:Bool = false; //For the editor
 	public var curCharacter:String = 'bf';
-
+	public var skiptimer = 0;
+	public var skipping = 0;
 	public function new(x:Float = 0, y:Float = 0, character:String = null)
 	{
 		super(x, y);
@@ -174,6 +177,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var offsetPos:Float = -600;
 
 	var textBoxTypes:Array<String> = ['normal', 'angry'];
+	
+	var curCharacter:String = "";
 	//var charPositionList:Array<String> = ['left', 'center', 'right'];
 
 	public function new(dialogueList:DialogueFile, ?song:String = null)
@@ -241,12 +246,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			var x:Float = LEFT_CHAR_X;
 			var y:Float = DEFAULT_CHAR_Y;
 			var char:DialogueCharacter = new DialogueCharacter(x + offsetPos, y, individualChar);
-
 			char.setGraphicSize(Std.int(char.width * DialogueCharacter.DEFAULT_SCALE * char.jsonFile.scale));
 			char.updateHitbox();
 			char.antialiasing = ClientPrefs.globalAntialiasing;
 			char.scrollFactor.set();
-			char.alpha = 0;
+			char.alpha = 0.00001;
 			add(char);
 
 			var saveY:Bool = false;
@@ -274,8 +278,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public static var DEFAULT_TEXT_Y = 430;
 	var scrollSpeed = 4500;
 	var daText:Alphabet = null;
+	var ignoreThisFrame:Bool = true; //First frame is reserved for loading dialogue images
 	override function update(elapsed:Float)
 	{
+		if(ignoreThisFrame) {
+			ignoreThisFrame = false;
+			super.update(elapsed);
+			return;
+		}
+
 		if(!dialogueEnded) {
 			bgFade.alpha += 0.5 * elapsed;
 			if(bgFade.alpha > 0.5) bgFade.alpha = 0.5;
@@ -360,7 +371,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 									if(char.x > char.startingPos - offsetPos) char.x = char.startingPos - offsetPos;
 							}
 							char.alpha -= 3 * elapsed;
-							if(char.alpha < 0) char.alpha = 0;
+							if(char.alpha < 0.00001) char.alpha = 0.00001;
 						} else {
 							switch(char.jsonFile.dialogue_pos) {
 								case 'left':
@@ -503,11 +514,12 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 	public static function parseDialogue(path:String):DialogueFile {
 		#if MODS_ALLOWED
-		var rawJson = File.getContent(path);
-		#else
-		var rawJson = Assets.getText(path);
+		if(FileSystem.exists(path))
+		{
+			return cast Json.parse(File.getContent(path));
+		}
 		#end
-		return cast Json.parse(rawJson);
+		return cast Json.parse(Assets.getText(path));
 	}
 
 	public static function updateBoxOffsets(box:FlxSprite) { //Had to make it static because of the editors

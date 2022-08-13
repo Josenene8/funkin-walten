@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				534
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				233,
+				639
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon Note Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				280,
+				550
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				208,
+				714
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				233,
+				546
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				503,
+				686
+			],
+			"fps": 24,
+			"anim": "transformend",
+			"indices": [],
+			"name": "Bon Transform End0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ANIMATRONIC_JOLLY_FNF_assets",
+	"position": [
+		-160,
+		300
+	],
+	"healthicon": "jganim",
+	"flip_x": true,
+	"healthbar_colors": [
+		78,
+		6,
+		0
+	],
+	"camera_position": [
+		-60,
+		-590
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

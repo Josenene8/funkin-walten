@@ -1,0 +1,4 @@
+No HUD
+This gets rid of the HUD. Duh
+
+value1: 1 hud off; 2 hud

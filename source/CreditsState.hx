@@ -12,49 +12,30 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+#if MODS_ALLOWED
+import sys.FileSystem;
+import sys.io.File;
+#end
 import lime.utils.Assets;
 
 using StringTools;
 
 class CreditsState extends MusicBeatState
 {
-	var curSelected:Int = 1;
+	var curSelected:Int = -1;
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
-
-	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
-	['The Walten Files Mod'],
-		['Froakii',		'froakii',		'Programmer, Composer, Artist/Animator, Chart Editor',					'https://twitter.com/froakiii',	0xFF00008B],
-		['KrysP',		'krysp',		'Artist/Animator for the Mysterious House Week',					'https://www.instagram.com/crystalsketcher/',	0xFFFFFF00],
-		['Mizuki Wolf',		'mizuki',		'Artist for the Mysterious House cover',					'https://twitter.com/MizukiiWolf',	0xFFFF748C],
-		['Blasterpaster',		'blasterpaster',		'Artist for improved icons',					'https://twitter.com/blastersucks',	0xFF61B5F6],
-		['Logan',		'logan',		'Voice Actor for Pumpkin Rabbit',					'https://twitter.com/compunzer1241',	0xFFBD9AFF],
-		['Martin Walls',		'martinwalls',		'Creator of The Walten Files',					'https://twitter.com/smiles_bunny',	0xFF40E0D0],
-			[''],
-	['Psych Engine Team'],
-		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
-		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
-		[''],
-		['Engine Contributors'],
-		['shubs',				'shubs',			'New Input System Programmer',						'https://twitter.com/yoshubs',			0xFF4494E6],
-		['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',						'https://twitter.com/polybiusproxy',	0xFFE01F32],
-		['gedehari',			'gedehari',			'Chart Editor\'s Sound Waveform base',				'https://twitter.com/gedehari',			0xFFFF9300],
-		['Keoiki',				'keoiki',			'Note Splash Animations',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
-		['SandPlanet',			'sandplanet',		'Psych Engine Preacher\nAlso cool guy lol',			'https://twitter.com/SandPlanetNG',		0xFFD10616],
-		['bubba',				'bubba',		'Guest Composer for "Hot Dilf"',	'https://www.youtube.com/channel/UCxQTnLmv0OAS63yzk9pVfaw',	0xFF61536A],
-		[''],
-		["Funkin' Crew"],
-		['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",				'https://twitter.com/ninja_muffin99',	0xFFF73838],
-		['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",					'https://twitter.com/PhantomArcade3K',	0xFFFFBB1B],
-		['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",					'https://twitter.com/evilsk8r',			0xFF53E52C],
-		['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",					'https://twitter.com/kawaisprite',		0xFF6475F3]
-	];
+	private var creditsStuff:Array<Array<String>> = [];
 
 	var bg:FlxSprite;
 	var descText:FlxText;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
+	var descBox:AttachedSprite;
+
+	var offsetThing:Float = -75;
 
 	override function create()
 	{
@@ -63,18 +44,105 @@ class CreditsState extends MusicBeatState
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		persistentUpdate = true;
+		bg = new FlxSprite().loadGraphic(Paths.image('creditsBG'));
 		add(bg);
-
+		bg.screenCenter();
+		
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
 
+		#if MODS_ALLOWED
+		//trace("finding mod shit");
+		for (folder in Paths.getModDirectories())
+		{
+			var creditsFile:String = Paths.mods(folder + '/data/credits.txt');
+			if (FileSystem.exists(creditsFile))
+			{
+				var firstarray:Array<String> = File.getContent(creditsFile).split('\n');
+				for(i in firstarray)
+				{
+					var arr:Array<String> = i.replace('\\n', '\n').split("::");
+					if(arr.length >= 5) arr.push(folder);
+					creditsStuff.push(arr);
+				}
+				creditsStuff.push(['']);
+			}
+		};
+		var folder = "";
+			var creditsFile:String = Paths.mods('data/credits.txt');
+			if (FileSystem.exists(creditsFile))
+			{
+				var firstarray:Array<String> = File.getContent(creditsFile).split('\n');
+				for(i in firstarray)
+				{
+					var arr:Array<String> = i.replace('\\n', '\n').split("::");
+					if(arr.length >= 5) arr.push(folder);
+					creditsStuff.push(arr);
+				}
+				creditsStuff.push(['']);
+			}
+		#end
+
+		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+		["The Funkin' Files"],
+		['Froakii',		'froakii',		'Director, Programmer, Composer, Artist/Animator, Chart Editor',					'https://twitter.com/froakiii',	'0xFF0048BA'],
+		['Artistic Rabbit',		'ar',		'Artist',					'https://twitter.com/artistic_rabbit',	'0xFFFFF09D'],
+		['Bella Cat',		'bella',		'Artist',					'https://www.youtube.com/c/BellaCat',	'cd003e'],
+		['Blasterpaster',		'blasterpaster',		'Icon Artist',					'https://twitter.com/blastersucks',	'0xFF61B5F6'],
+		['BrittiKitti',		'bk',		'Background Artist',					'https://twitter.com/Britti_Kitti',	'd1fde4'],
+		['cosmicalarcade',		'cosmical',		'Artist',					'https://twitter.com/cosmicalarcade',	'0xFFBD9AFF'],
+		['cosmosofconns',		'cosmos',		'Chart Editor',					'',	'06e5fa'],
+		['DarkDamien',		'dd',		'Voice Actor for Banny',					'',	'0xFFFFFFFF'],
+		['Dublicus',		'dub',		'Co-Director, Chromatic and Voice Actor for Mortality, Chromatic for Bon, Producer for Caution V2, Programmer, Charter',					'https://twitter.com/Dublicus',	'0xFF910303'],
+		['haylow',		'haylow',		'Chart Editor',					'https://www.youtube.com/c/haylow12',	'0xFFFFFFFF'],
+		['JazzyLadd',		'jazzy',		'Voice Actor for Ashley',					'https://twitter.com/3_cinnamonroll',	'e195c3'],
+		['Jeta de Hetty',		'jdh',		'Artist',					'https://twitter.com/JetaDeHetty',	'0xFFFF79E8'],
+		['KrysP',		'krysp',		'Artist/Animator',					'https://www.instagram.com/crystalsketcher/',	'0xFFFFFF00'],
+		['L. Gamer',		'lg',		'Artist',					'',	'7f007c'],
+		['Legion',		'legion',		'Artist, Voice Actor for Jolly Ghost, ProtoSophie, & Sha',					'https://twitter.com/CallMeLegion_YT',	'0xFF599BFF'],
+		['Logan',		'logan',		"Voice Actor for Pumpkin Rabbit & Boozoo (Boozoo's Ghosts)",					'https://twitter.com/compunzer1241',	'0xFFBD9AFF'],
+		['Mizuki Wolf',		'mizuki',		'Cover & Application Icon Artist',					'https://twitter.com/MizukiiWolf',	'0xFFFF748C'],
+		['prowerpower',		'prower',		'Voice Actor for Sophie',					'',	'c8584a'],
+		['Sex Rat Official',		'rat',		'Artist',					'https://twitter.com/SexRatOfficial1',	'0xFFFFA100'],
+		['SolarTear',		'potato',		'Animator, Composer, Chart Editor',					'https://www.youtube.com/channel/UCT60kBdLHDsxiKnavm6ihzQ',	'0xFFFBD027'],
+		['T8KU',		'taco',		'Co-Director, Voice Actor for Bon (Bunnyfarm), Billy, & Sad Ghost, Chromatics for Ashley, Billy, Jolly Ghost, Sad Ghost, & Sha, Producer for Caution V2',					'https://twitter.com/T8KU_',	'772bdf'],
+		["Others"],
+		['Martin Walls',		'martinwalls',		'Creator of The Walten Files',					'https://twitter.com/smiles_bunny',	'0xFF40E0D0'],
+			[''],
+			['Psych Engine Team'],
+			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
+			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
+			['shubs',				'shubs',			'Additional Programmer of Psych Engine',				'https://twitter.com/yoshubs',			'4494E6'],
+			[''],
+			['Former Engine Members'],
+			['bb-panzu',			'bb-panzu',			'Ex-Programmer of Psych Engine',						'https://twitter.com/bbsub3',			'389A58'],
+			[''],
+			['Engine Contributors'],
+			['SqirraRNG',			'gedehari',			'Chart Editor\'s Sound Waveform base',					'https://twitter.com/gedehari',			'FF9300'],
+			['iFlicky',				'iflicky',			'Delay/Combo Menu Song Composer\nand Dialogue Sounds',	'https://twitter.com/flicky_i',			'C549DB'],
+			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',							'https://twitter.com/polybiusproxy',	'FFEAA6'],
+			['Keoiki',				'keoiki',			'Note Splash Animations',								'https://twitter.com/Keoiki_',			'FFFFFF'],
+			['Smokey',				'smokey',			'Spritemap Texture Support',							'https://twitter.com/Smokey_5_',		'0033CC'],
+			[''],
+			["Funkin' Crew"],
+			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",					'https://twitter.com/ninja_muffin99',	'F73838'],
+			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",						'https://twitter.com/PhantomArcade3K',	'FFBB1B'],
+			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",						'https://twitter.com/evilsk8r',			'53E52C'],
+			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",						'https://twitter.com/kawaisprite',		'6475F3']
+		];
+		
+		for(i in pisspoop){
+			creditsStuff.push(i);
+		}
+	
 		for (i in 0...creditsStuff.length)
 		{
 			var isSelectable:Bool = !unselectableCheck(i);
 			var optionText:Alphabet = new Alphabet(0, 70 * i, creditsStuff[i][0], !isSelectable, false);
 			optionText.isMenuItem = true;
 			optionText.screenCenter(X);
+			optionText.yAdd -= 70;
 			if(isSelectable) {
 				optionText.x -= 70;
 			}
@@ -84,6 +152,11 @@ class CreditsState extends MusicBeatState
 			grpOptions.add(optionText);
 
 			if(isSelectable) {
+				if(creditsStuff[i][5] != null)
+				{
+					Paths.currentModDirectory = creditsStuff[i][5];
+				}
+
 				var icon:AttachedSprite = new AttachedSprite('credits/' + creditsStuff[i][1]);
 				icon.xAdd = optionText.width + 10;
 				icon.sprTracker = optionText;
@@ -91,21 +164,35 @@ class CreditsState extends MusicBeatState
 				// using a FlxGroup is too much fuss!
 				iconArray.push(icon);
 				add(icon);
+				Paths.currentModDirectory = '';
+
+				if(curSelected == -1) curSelected = i;
 			}
 		}
+		
+		descBox = new AttachedSprite();
+		descBox.makeGraphic(1, 1, FlxColor.BLACK);
+		descBox.xAdd = -10;
+		descBox.yAdd = -10;
+		descBox.alphaMult = 0.6;
+		descBox.alpha = 0.6;
+		add(descBox);
 
-		descText = new FlxText(50, 600, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
+		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 		descText.scrollFactor.set();
-		descText.borderSize = 2.4;
+		//descText.borderSize = 2.4;
+		descBox.sprTracker = descText;
 		add(descText);
 
-		bg.color = creditsStuff[curSelected][4];
+		bg.color = getCurrentBGColor();
 		intendedColor = bg.color;
 		changeSelection();
 		super.create();
 	}
 
+	var quitting:Bool = false;
+	var holdTime:Float = 0;
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.7)
@@ -113,35 +200,80 @@ class CreditsState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
-		var upP = controls.UI_UP_P;
-		var downP = controls.UI_DOWN_P;
+		if(!quitting)
+		{
+			if(creditsStuff.length > 1)
+			{
+				var shiftMult:Int = 1;
+				if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
 
-		if (upP)
-		{
-			changeSelection(-1);
-		}
-		if (downP)
-		{
-			changeSelection(1);
-		}
+				var upP = controls.UI_UP_P;
+				var downP = controls.UI_DOWN_P;
 
-		if (controls.BACK)
-		{
-			if(colorTween != null) {
-				colorTween.cancel();
+				if (upP)
+				{
+					changeSelection(-1 * shiftMult);
+					holdTime = 0;
+				}
+				if (downP)
+				{
+					changeSelection(1 * shiftMult);
+					holdTime = 0;
+				}
+
+				if(controls.UI_DOWN || controls.UI_UP)
+				{
+					var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
+					holdTime += elapsed;
+					var checkNewHold:Int = Math.floor((holdTime - 0.5) * 10);
+
+					if(holdTime > 0.5 && checkNewHold - checkLastHold > 0)
+					{
+						changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
+					}
+				}
 			}
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-			MusicBeatState.switchState(new MainMenuState());
+
+			if(controls.ACCEPT) {
+				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
+			}
+			if (controls.BACK)
+			{
+				if(colorTween != null) {
+					colorTween.cancel();
+				}
+				FlxG.sound.play(Paths.sound('cancelMenu'));
+				MusicBeatState.switchState(new MainMenuState());
+				quitting = true;
+			}
 		}
-		if(controls.ACCEPT) {
-			CoolUtil.browserLoad(creditsStuff[curSelected][3]);
+		
+		for (item in grpOptions.members)
+		{
+			if(!item.isBold)
+			{
+				var lerpVal:Float = CoolUtil.boundTo(elapsed * 12, 0, 1);
+				if(item.targetY == 0)
+				{
+					var lastX:Float = item.x;
+					item.screenCenter(X);
+					item.x = FlxMath.lerp(lastX, item.x - 70, lerpVal);
+					item.forceX = item.x;
+				}
+				else
+				{
+					item.x = FlxMath.lerp(item.x, 200 + -40 * Math.abs(item.targetY), lerpVal);
+					item.forceX = item.x;
+				}
+			}
 		}
 		super.update(elapsed);
 	}
 
+	var moveTween:FlxTween = null;
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollMenu'));
 		do {
 			curSelected += change;
 			if (curSelected < 0)
@@ -150,7 +282,7 @@ class CreditsState extends MusicBeatState
 				curSelected = 0;
 		} while(unselectableCheck(curSelected));
 
-		var newColor:Int = creditsStuff[curSelected][4];
+		var newColor:Int =  getCurrentBGColor();
 		if(newColor != intendedColor) {
 			if(colorTween != null) {
 				colorTween.cancel();
@@ -177,7 +309,23 @@ class CreditsState extends MusicBeatState
 				}
 			}
 		}
+
 		descText.text = creditsStuff[curSelected][2];
+		descText.y = FlxG.height - descText.height + offsetThing - 60;
+
+		if(moveTween != null) moveTween.cancel();
+		moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.25, {ease: FlxEase.sineOut});
+
+		descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
+		descBox.updateHitbox();
+	}
+
+	function getCurrentBGColor() {
+		var bgColor:String = creditsStuff[curSelected][4];
+		if(!bgColor.startsWith('0x')) {
+			bgColor = '0xFF' + bgColor;
+		}
+		return Std.parseInt(bgColor);
 	}
 
 	private function unselectableCheck(num:Int):Bool {

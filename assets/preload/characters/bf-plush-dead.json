@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				605,
+				115
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF Dead confirm0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				605,
+				8
+			],
+			"loop": true,
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				168,
+				305
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfplushfuckindies",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf_PLUSH",
+	"flip_x": true,
+	"healthbar_colors": [
+		123,
+		214,
+		246
+	],
+	"camera_position": [
+		100,
+		-350
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				470
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				158,
+				467
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				427
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon Note Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				478
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				235,
+				372
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cartoon_Mortality_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "mortalitycartoon",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		170,
+		1
+	],
+	"camera_position": [
+		-60,
+		-550
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

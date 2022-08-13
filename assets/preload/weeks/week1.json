@@ -10,10 +10,12 @@
 	"weekBackground": "halloween",
 
 	"storyName": "Company Introductory Tape",
-	"weekBefore": "week1",
+	"weekBefore": "weekgf",
 	"weekName": "Week 1",
 	"startUnlocked": true,
 
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true
 }

@@ -1,0 +1,47 @@
+{
+	"songs": [
+		[
+			"Lies",
+			"sg",
+			[
+				225,
+				137,
+				30
+			]
+		],
+[
+			"Ripple",
+			"jg",
+			[
+				225,
+				137,
+				30
+			]
+		],
+		[
+			"Mortality",
+			"mortalitycartoon",
+			[
+				252,
+				252,
+				0
+			]
+		]
+	],
+	"weekBackground": "boozooghosts",
+	"weekCharacters": [
+	],
+	"storyName": "Boozoo's Ghosts",
+	"weekName": "Week B",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+		"hideStoryMode": false,
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true,
+	"weekBefore": "weeka",
+	"startUnlocked": true
+}

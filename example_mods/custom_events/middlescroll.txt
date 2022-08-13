@@ -1,0 +1,2 @@
+Enable Middlescroll Mid Song aaa
+Value 1: 0=OFF 1=ONE

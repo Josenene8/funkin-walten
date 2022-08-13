@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-272,
+				-260
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-261,
+				-242
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon Right Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				
+				-279,
+				-239
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon Left Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-272,
+				-245
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-266,
+				-265
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Rosemary_TS_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "rosemaryts",
+	"flip_x": true,
+	"healthbar_colors": [
+		178,
+		190,
+		181
+	],
+	"camera_position": [
+		40,
+		130
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

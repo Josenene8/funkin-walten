@@ -1,0 +1,53 @@
+{
+	"storyName": "Relocate Project",
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true,
+	"weekBackground": "two",
+	"weekBefore": "week1",
+	"startUnlocked": true,
+	"weekCharacters": [],
+	"songs": [
+
+[
+			"Relocation",
+			"relocatebon",
+			[
+				84,
+				112,
+				205
+			]
+		],
+		[
+			"Starving",
+			"bannyanim",
+			[
+				255,
+				97,
+				246
+			]
+		],
+		
+[
+			"Mangled",
+			"shats",
+			[
+				255,
+		226,
+		185
+			]
+		],
+[
+			"Blunder",
+			"ashley",
+			[
+				84,
+				112,
+				205
+			]
+		]
+		
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 1"
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				614
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				343,
+				626
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				246,
+				614
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				218,
+				643
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				482,
+				502
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ANIMATRONIC_SG_FNF_assets",
+	"position": [
+		0,
+		270
+	],
+	"healthicon": "sganim",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		58,
+		71
+	],
+	"camera_position": [
+		-210,
+		-680
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

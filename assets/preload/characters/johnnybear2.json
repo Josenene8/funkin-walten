@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				86,
+				130
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				235,
+				131
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				119,
+				130
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				41,
+				331
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				102,
+				-75
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/JohnnyBearExaggerated_FNF_assets",
+	"position": [
+		50,
+		380
+	],
+	"healthicon": "jb",
+	"flip_x": true,
+	"healthbar_colors": [
+		87,
+		27,
+		2
+	],
+	"camera_position": [
+		-70,
+		-110
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

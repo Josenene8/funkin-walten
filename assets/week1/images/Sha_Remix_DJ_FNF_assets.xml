@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sha_Remix_DJ_FNF_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DJ Sha Dancing Beat0000" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0001" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0002" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0003" x="390" y="0" width="398" height="508" frameX="0" frameY="0" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0004" x="390" y="0" width="398" height="508" frameX="0" frameY="0" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0005" x="788" y="0" width="388" height="504" frameX="-4" frameY="-5" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0006" x="788" y="0" width="388" height="504" frameX="-4" frameY="-5" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0007" x="1176" y="0" width="386" height="506" frameX="-5" frameY="-3" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0008" x="1176" y="0" width="386" height="506" frameX="-5" frameY="-3" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0009" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0010" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0011" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0012" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0013" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0014" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0015" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0016" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0017" x="0" y="0" width="390" height="497" frameX="-6" frameY="-11" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0018" x="390" y="0" width="398" height="508" frameX="0" frameY="0" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0019" x="390" y="0" width="398" height="508" frameX="0" frameY="0" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0020" x="788" y="0" width="388" height="504" frameX="-4" frameY="-5" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0021" x="788" y="0" width="388" height="504" frameX="-4" frameY="-5" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0022" x="1176" y="0" width="386" height="506" frameX="-5" frameY="-3" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0023" x="1176" y="0" width="386" height="506" frameX="-5" frameY="-3" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0024" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0025" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0026" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0027" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0028" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+	<SubTexture name="DJ Sha Dancing Beat0029" x="1562" y="0" width="386" height="507" frameX="-5" frameY="-2" frameWidth="398" frameHeight="509"/>
+</TextureAtlas>

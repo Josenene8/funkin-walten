@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BoozooRemix.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Boozoo Dance 10000" x="0" y="0" width="265" height="309" frameX="0" frameY="-25" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10001" x="0" y="0" width="265" height="309" frameX="0" frameY="-25" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10002" x="265" y="0" width="260" height="321" frameX="-3" frameY="-17" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10003" x="265" y="0" width="260" height="321" frameX="-3" frameY="-17" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10004" x="525" y="0" width="258" height="322" frameX="-4" frameY="-11" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10005" x="525" y="0" width="258" height="322" frameX="-4" frameY="-11" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10006" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10007" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10008" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10009" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10010" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10011" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10012" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+	<SubTexture name="Boozoo Dance 10013" x="0" y="322" width="258" height="329" frameX="-4" frameY="0" frameWidth="265" frameHeight="338"/>
+</TextureAtlas>

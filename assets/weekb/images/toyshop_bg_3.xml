@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="toyshop_bg_3.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="JollyAndSadAnim0000" x="0" y="0" width="1223" height="537" frameX="-46" frameY="-53" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0001" x="0" y="0" width="1223" height="537" frameX="-46" frameY="-53" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0002" x="1223" y="0" width="1231" height="554" frameX="-33" frameY="-36" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0003" x="1223" y="0" width="1231" height="554" frameX="-33" frameY="-36" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0004" x="2454" y="0" width="1232" height="570" frameX="-29" frameY="-19" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0005" x="3686" y="0" width="1253" height="570" frameX="-8" frameY="-19" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0006" x="4939" y="0" width="1252" height="587" frameX="-8" frameY="-2" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0007" x="6191" y="0" width="1260" height="587" frameX="0" frameY="-2" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0008" x="0" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0009" x="0" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0010" x="1260" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0011" x="1260" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0012" x="1260" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0013" x="1260" y="587" width="1260" height="589" frameX="0" frameY="0" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0014" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0015" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0016" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0017" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0018" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0019" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0020" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0021" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0022" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0023" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0024" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0025" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0026" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0027" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0028" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim0029" x="2520" y="587" width="0" height="0" frameX="-316" frameY="-509" frameWidth="1269" frameHeight="590"/>
+	<SubTexture name="JollyAndSadAnim Intro0000" x="2520" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0001" x="3370" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0002" x="4220" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0003" x="5070" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0004" x="5920" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0005" x="6770" y="587" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0006" x="0" y="1186" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0007" x="850" y="1186" width="850" height="599" frameX="-227" frameY="0" frameWidth="1260" frameHeight="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0008" x="1700" y="1186" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0009" x="2960" y="1186" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0010" x="4220" y="1186" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0011" x="5480" y="1186" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0012" x="6740" y="1186" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0013" x="0" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0014" x="1260" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0015" x="2520" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0016" x="1260" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0017" x="1260" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0018" x="1260" y="1868" width="1260" height="682"/>
+	<SubTexture name="JollyAndSadAnim Intro0019" x="3780" y="1868" width="1260" height="682"/>
+</TextureAtlas>

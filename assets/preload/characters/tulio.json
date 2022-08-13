@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				540
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				333,
+				527
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				252,
+				537
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				41
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Bon NOTE LEFT miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Bon Note Right Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				318,
+				614
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				270,
+				500
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Bon Down Note MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Bon Up note miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				293,
+				579
+			],
+			"loop": false,
+			"anim": "blood",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TULIO_FNF_Assets",
+	"position": [
+		180,
+		540
+	],
+	"healthicon": "tulio",
+	"flip_x": true,
+	"healthbar_colors": [
+		187,
+		200,
+		173
+	],
+	"camera_position": [
+		-120,
+		-400
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

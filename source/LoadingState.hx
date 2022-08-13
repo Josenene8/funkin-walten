@@ -13,7 +13,9 @@ import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
 import lime.utils.AssetLibrary;
 import lime.utils.AssetManifest;
-
+import flixel.tweens.FlxEase;
+import flixel.util.FlxColor;
+import flixel.tweens.FlxTween;
 import haxe.io.Path;
 
 class LoadingState extends MusicBeatState
@@ -41,23 +43,39 @@ class LoadingState extends MusicBeatState
 	}
 
 	var funkay:FlxSprite;
+	var tipsBG:FlxSprite;
 	var loadBar:FlxSprite;
 	override function create()
 	{
 		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d);
 		add(bg);
-		funkay = new FlxSprite(0, 0).loadGraphic(Paths.getPath('images/funkay.png', IMAGE));
+		funkay = new FlxSprite().loadGraphic(Paths.image('loading/load-' + FlxG.random.int(1, 7)));
 		funkay.setGraphicSize(0, FlxG.height);
 		funkay.updateHitbox();
 		funkay.antialiasing = ClientPrefs.globalAntialiasing;
 		add(funkay);
 		funkay.scrollFactor.set();
 		funkay.screenCenter();
+		
+		var tipsBG:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loading/tips/tip-' + FlxG.random.int(1, 7)));
+		tipsBG.setGraphicSize(0, FlxG.height);
+		tipsBG.updateHitbox();
+		tipsBG.antialiasing = ClientPrefs.globalAntialiasing;
+		add(tipsBG);
+		tipsBG.scrollFactor.set();
+		tipsBG.screenCenter();
+		tipsBG.alpha = 0;
 
 		loadBar = new FlxSprite(0, FlxG.height - 20).makeGraphic(FlxG.width, 10, 0xffff16d2);
 		loadBar.screenCenter(X);
 		loadBar.antialiasing = ClientPrefs.globalAntialiasing;
 		add(loadBar);
+		
+		new FlxTimer().start(0.2, function(tmr:FlxTimer)
+			{
+			FlxTween.tween(tipsBG, {alpha: 1}, 0.5, {ease: FlxEase.linear});
+				
+			});
 		
 		initSongsManifest().onComplete
 		(

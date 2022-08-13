@@ -1,0 +1,37 @@
+{
+	"storyName": "Remixes",
+	"weekBackground": "halloween",
+	"weekBefore": "weekremix",
+	"freeplayColor": [
+		30,
+		211,
+		247
+	],
+	"startUnlocked": true,
+	"weekCharacters": [],
+	"songs": [
+		[
+			"Sleepover (Remix)",
+			"littlebonremix",
+			[
+				30,
+				211,
+				247
+			]
+		],
+		[
+			"Caution (remix)",
+			"brianremix",
+			[
+				217,
+				159,
+				2
+			]
+		]
+	],
+		"hideStoryMode": true,
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true,
+	"weekName": "Remixes"
+}

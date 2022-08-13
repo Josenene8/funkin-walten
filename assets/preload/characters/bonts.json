@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				318,
+				-82
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bon_TS_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bonanim",
+	"flip_x": true,
+	"healthbar_colors": [
+		70,
+		119,
+		192
+	],
+	"camera_position": [
+		-840,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

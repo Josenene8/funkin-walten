@@ -1,0 +1,19 @@
+{
+	"songs": [
+["quantum", "GF_WALTEN", [217, 159, 2]]
+	],
+
+	"weekCharacters": [
+	],
+	"weekBackground": "prologue",
+
+	"storyName": "Prologue",
+	"weekBefore": "weekgf",
+	"weekName": "Week GF",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"hideFreeplayPico": true,
+	"hideSecretSongs": true
+}

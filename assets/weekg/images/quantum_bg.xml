@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="quantum_bg.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Background art0000" x="0" y="0" width="6443" height="1358" frameX="-3940" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0001" x="0" y="0" width="6443" height="1358" frameX="-3940" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0002" x="0" y="0" width="6443" height="1358" frameX="-2771" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0003" x="0" y="0" width="6443" height="1358" frameX="-2771" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0004" x="0" y="0" width="6443" height="1358" frameX="-2075" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0005" x="0" y="0" width="6443" height="1358" frameX="-2075" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0006" x="0" y="0" width="6443" height="1358" frameX="-1228" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0007" x="0" y="0" width="6443" height="1358" frameX="-1228" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0008" x="0" y="0" width="6443" height="1358" frameX="0" frameY="0" frameWidth="10383" frameHeight="1358"/>
+	<SubTexture name="Background art0009" x="0" y="0" width="6443" height="1358" frameX="0" frameY="0" frameWidth="10383" frameHeight="1358"/>
+</TextureAtlas>

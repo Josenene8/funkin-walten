@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				80,
+				540
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bon Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				504
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				504
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				41
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				504
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				504
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		},
+		{
+			"offsets": [
+				293,
+				579
+			],
+			"loop": false,
+			"anim": "blood",
+			"fps": 24,
+			"name": "Bon Blood",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ANIMATRONIC_Bon_REMIX_FNF_assetsDARK",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "bonanimremix",
+	"flip_x": true,
+	"healthbar_colors": [
+		25,
+		65,
+		255
+	],
+	"camera_position": [
+		-70,
+		-640
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

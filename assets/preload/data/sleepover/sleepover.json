@@ -26,7 +26,7 @@
 				"lengthInSteps": 16,
 				"bpm": 150,
 				"changeBPM": false,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"typeOfSection": 0,
@@ -34,7 +34,7 @@
 				"lengthInSteps": 16,
 				"bpm": 150,
 				"changeBPM": false,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"typeOfSection": 0,
@@ -42,7 +42,7 @@
 				"lengthInSteps": 16,
 				"bpm": 130,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"typeOfSection": 0,
@@ -50,7 +50,7 @@
 				"lengthInSteps": 16,
 				"bpm": 150,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"typeOfSection": 0,
@@ -2483,12 +2483,12 @@
 					],
 					[
 						93103.448275862,
-						1,
+						0,
 						0
 					],
 					[
 						93310.3448275862,
-						1,
+						3,
 						0
 					]
 				],
@@ -2583,12 +2583,12 @@
 					],
 					[
 						96413.7931034482,
-						1,
+						0,
 						0
 					],
 					[
 						96620.6896551724,
-						1,
+						3,
 						0
 					]
 				],
@@ -2652,11 +2652,6 @@
 				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						100137.931034483,
-						3,
-						0
-					],
-					[
 						100344.827586207,
 						0,
 						0
@@ -2713,22 +2708,27 @@
 					],
 					[
 						99724.1379310344,
-						5,
+						0,
+						0
+					],
+					[
+						99931.0344827586,
+						3,
 						0
 					],
 					[
 						99724.1379310344,
-						1,
+						4,
 						0
 					],
 					[
 						99931.0344827586,
-						1,
+						7,
 						0
 					],
 					[
-						99931.0344827586,
-						5,
+						100137.931034483,
+						3,
 						0
 					]
 				],
@@ -2887,28 +2887,28 @@
 						0
 					],
 					[
-						103034.482758621,
-						1,
-						0
-					],
-					[
-						103034.482758621,
-						5,
-						0
-					],
-					[
 						102827.586206896,
 						5,
 						0
 					],
 					[
-						103241.379310345,
-						5,
+						103034.482758621,
+						0,
 						0
 					],
 					[
 						103241.379310345,
-						1,
+						3,
+						0
+					],
+					[
+						103034.482758621,
+						4,
+						0
+					],
+					[
+						103241.379310345,
+						7,
 						0
 					]
 				],
@@ -3043,12 +3043,12 @@
 					],
 					[
 						106344.827586207,
-						1,
+						0,
 						0
 					],
 					[
 						106551.724137931,
-						1,
+						3,
 						0
 					]
 				],
@@ -3143,12 +3143,12 @@
 					],
 					[
 						109655.172413793,
-						1,
+						0,
 						0
 					],
 					[
 						109862.068965517,
-						1,
+						3,
 						0
 					]
 				],
@@ -3262,11 +3262,6 @@
 						0
 					],
 					[
-						112965.517241379,
-						1,
-						0
-					],
-					[
 						112551.724137931,
 						5,
 						0
@@ -3278,17 +3273,22 @@
 					],
 					[
 						112965.517241379,
-						5,
+						0,
 						0
 					],
 					[
 						113172.413793103,
-						1,
+						3,
+						0
+					],
+					[
+						112965.517241379,
+						4,
 						0
 					],
 					[
 						113172.413793103,
-						5,
+						7,
 						0
 					]
 				],
@@ -3447,28 +3447,28 @@
 						0
 					],
 					[
-						116275.862068965,
-						1,
-						0
-					],
-					[
 						116068.965517241,
 						5,
 						0
 					],
 					[
 						116275.862068965,
-						5,
+						0,
 						0
 					],
 					[
 						116482.75862069,
-						1,
+						3,
+						0
+					],
+					[
+						116275.862068965,
+						4,
 						0
 					],
 					[
 						116482.75862069,
-						5,
+						7,
 						0
 					]
 				],
@@ -3710,13 +3710,6 @@
 						123931.034482759,
 						3,
 						0
-					],
-					[
-						122482.75862069,
-						-1,
-						"Change Character",
-						"1",
-						"bonglitch"
 					]
 				],
 				"altAnim": false,
@@ -3977,22 +3970,7 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						132413.793103448,
-						-1,
-						"Play Animation",
-						"glitch",
-						""
-					],
-					[
-						132517.24137931,
-						-1,
-						"Add Camera Zoom",
-						"0.100",
-						""
-					]
-				],
+				"sectionNotes": [],
 				"altAnim": false,
 				"bpm": 150,
 				"changeBPM": false,
@@ -4036,20 +4014,6 @@
 						135517.24137931,
 						0,
 						0
-					],
-					[
-						134068.965517241,
-						-1,
-						"Change Character",
-						"1",
-						"bon"
-					],
-					[
-						134172.413793103,
-						-1,
-						"Add Camera Zoom",
-						"",
-						""
 					]
 				],
 				"altAnim": false,
@@ -5066,6 +5030,36 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 145,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 145
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 145,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -5074,10 +5068,63 @@
 				"mustHitSection": true
 			}
 		],
-		"player3": "gf",
+		"gfVersion": "gf",
+		"events": [
+			[
+				122482.75862069,
+				[
+					[
+						"Change Character",
+						"1",
+						"bon"
+					]
+				]
+			],
+			[
+				132413.793103448,
+				[
+					[
+						"Play Animation",
+						"glitch",
+						""
+					]
+				]
+			],
+			[
+				132517.24137931,
+				[
+					[
+						"Add Camera Zoom",
+						"0.100",
+						""
+					]
+				]
+			],
+			[
+				134068.965517241,
+				[
+					[
+						"Change Character",
+						"1",
+						"bon"
+					]
+				]
+			],
+			[
+				134172.413793103,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"player3": null,
 		"song": "Sleepover",
-		"needsVoices": true,
 		"sections": 0,
+		"needsVoices": true,
 		"stage": "littlebonroom",
 		"validScore": true,
 		"speed": 2.7,

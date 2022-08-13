@@ -3562,7 +3562,7 @@
 		"stage": "mysterioushouse",
 		"needsVoices": true,
 		"validScore": true,
-		"arrowSkin": "",
+		"arrowSkin": "NOTEMH_assets",
 		"bpm": 135,
 		"speed": 1.8
 	}

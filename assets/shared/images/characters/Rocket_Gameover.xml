@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Rocket_Gameover.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bon Static0000" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0001" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0002" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0003" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0004" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0005" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0006" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0007" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0008" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0009" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0010" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0011" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0012" x="0" y="0" width="736" height="552"/>
+	<SubTexture name="Bon Static0013" x="0" y="0" width="736" height="552"/>
+</TextureAtlas>

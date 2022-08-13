@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="relocate_kids_bg.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bouncing Kids0000" x="0" y="0" width="1729" height="299" frameX="0" frameY="-48" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0001" x="0" y="0" width="1729" height="299" frameX="0" frameY="-48" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0002" x="0" y="299" width="1729" height="312" frameX="0" frameY="-36" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0003" x="0" y="299" width="1729" height="312" frameX="0" frameY="-36" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0004" x="0" y="611" width="1729" height="342" frameX="0" frameY="-6" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0005" x="0" y="611" width="1729" height="342" frameX="0" frameY="-6" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0006" x="0" y="953" width="1729" height="346" frameX="0" frameY="-1" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0007" x="0" y="953" width="1729" height="346" frameX="0" frameY="-1" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0008" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0009" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0010" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0011" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0012" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0013" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0014" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0015" x="0" y="1299" width="1729" height="330" frameX="0" frameY="-18" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0016" x="0" y="1299" width="1729" height="330" frameX="0" frameY="-18" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0017" x="0" y="1629" width="1729" height="333" frameX="0" frameY="-16" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0018" x="0" y="1629" width="1729" height="333" frameX="0" frameY="-16" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0019" x="0" y="611" width="1729" height="342" frameX="0" frameY="-6" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0020" x="0" y="611" width="1729" height="342" frameX="0" frameY="-6" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0021" x="0" y="953" width="1729" height="346" frameX="0" frameY="-1" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0022" x="0" y="953" width="1729" height="346" frameX="0" frameY="-1" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0023" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0024" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0025" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0026" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0027" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0028" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+	<SubTexture name="Bouncing Kids0029" x="0" y="953" width="1729" height="346" frameX="0" frameY="0" frameWidth="1729" frameHeight="349"/>
+</TextureAtlas>

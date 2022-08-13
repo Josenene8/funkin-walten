@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				569,
+				549
+			],
+			"anim": "transform",
+			"fps": 24,
+			"name": "Bon Transform",
+			"indices": []
+		},
+		{
+			"offsets": [
+				729,
+				555
+			],
+			"loop": false,
+			"anim": "preclawswipe",
+			"fps": 24,
+			"name": "Bon Claw Prepare0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				344,
+				467
+			],
+			"loop": false,
+			"anim": "swipeleft",
+			"fps": 24,
+			"name": "Bon Claw Swipe Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				520,
+				469
+			],
+			"loop": false,
+			"anim": "swiperight",
+			"fps": 24,
+			"name": "Bon Claw Swipe Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				569,
+				549
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Bon Transform"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ANIMATRONIC_MortalityTransform_FNF_assets",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "mortalityanim",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		87,
+		0
+	],
+	"camera_position": [
+		-630,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

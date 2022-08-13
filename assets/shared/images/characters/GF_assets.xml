@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="GF_assets.png">
-	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="GF Dancing Beat0000" x="0" y="0" width="448" height="590" frameX="0" frameY="-1" frameWidth="455" frameHeight="591"/>
 	<SubTexture name="GF Dancing Beat0001" x="0" y="0" width="448" height="590" frameX="0" frameY="-1" frameWidth="455" frameHeight="591"/>

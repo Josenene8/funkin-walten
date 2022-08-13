@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BillyDance.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BillyDanceFull0000" x="0" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0001" x="0" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0002" x="1920" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0003" x="1920" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0004" x="3840" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0005" x="5760" y="0" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0006" x="0" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0007" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0008" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0009" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0010" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0011" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0012" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0013" x="1920" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0014" x="3840" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0015" x="3840" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0016" x="5760" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0017" x="5760" y="1089" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0018" x="0" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0019" x="1920" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0020" x="3840" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0021" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0022" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0023" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0024" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0025" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0026" x="5760" y="2178" width="1920" height="1089"/>
+	<SubTexture name="BillyDanceFull0027" x="5760" y="2178" width="1920" height="1089"/>
+</TextureAtlas>

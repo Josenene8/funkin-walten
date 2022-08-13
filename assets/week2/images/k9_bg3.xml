@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="k9_bg3.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Billy K90000" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90001" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90002" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90003" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90004" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90005" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90006" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90007" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90008" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90009" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90010" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90011" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90012" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90013" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90014" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90015" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90016" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90017" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90018" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90019" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90020" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90021" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90022" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90023" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90024" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90025" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90026" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90027" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90028" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K90029" x="0" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20000" x="4096" y="0" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20001" x="0" y="2048" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20002" x="4096" y="2048" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20003" x="0" y="4096" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20004" x="4096" y="4096" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20005" x="0" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20006" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20007" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20008" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20009" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20010" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20011" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20012" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20013" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20014" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20015" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20016" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20017" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20018" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20019" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20020" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20021" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20022" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20023" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20024" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20025" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20026" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20027" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20028" x="4096" y="6144" width="4096" height="2048"/>
+	<SubTexture name="Billy K9 20029" x="4096" y="6144" width="4096" height="2048"/>
+</TextureAtlas>

@@ -1,0 +1,4 @@
+Captions woah
+
+value1 = text or lyrics
+value2 = duration in seconds (example 1.2)

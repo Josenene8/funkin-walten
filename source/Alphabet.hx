@@ -25,6 +25,7 @@ class Alphabet extends FlxSpriteGroup
 	public var xAdd:Float = 0;
 	public var yAdd:Float = 0;
 	public var isMenuItem:Bool = false;
+	public var isMenuItemCenter:Bool = false;
 	public var textSize:Float = 1.0;
 
 	public var text:String = "";
@@ -39,7 +40,7 @@ class Alphabet extends FlxSpriteGroup
 
 	var splitWords:Array<String> = [];
 
-	var isBold:Bool = false;
+	public var isBold:Bool = false;
 	public var lettersArray:Array<AlphaCharacter> = [];
 
 	public var finishedText:Bool = false;
@@ -76,6 +77,7 @@ class Alphabet extends FlxSpriteGroup
 	{
 		for (i in 0...lettersArray.length) {
 			var letter = lettersArray[0];
+			letter.destroy();
 			remove(letter);
 			lettersArray.remove(letter);
 		}
@@ -121,7 +123,7 @@ class Alphabet extends FlxSpriteGroup
 			// {
 			// }
 
-			var spaceChar:Bool = (character == " " || character == "_");
+			var spaceChar:Bool = (character == " " || (isBold && character == "_"));
 			if (spaceChar)
 			{
 				consecutiveSpaces++;
@@ -242,7 +244,7 @@ class Alphabet extends FlxSpriteGroup
 		}
 
 		if(loopNum <= splitWords.length && splitWords[loopNum] != null) {
-			var spaceChar:Bool = (splitWords[loopNum] == " " || splitWords[loopNum] == "_");
+			var spaceChar:Bool = (splitWords[loopNum] == " " || (isBold && splitWords[loopNum] == "_"));
 			if (spaceChar)
 			{
 				consecutiveSpaces++;
@@ -344,6 +346,19 @@ class Alphabet extends FlxSpriteGroup
 			}
 		}
 
+		if (isMenuItemCenter)
+			{
+				var scaledY = FlxMath.remapToRange(targetY, 0, 1, 0, 1.3);
+	
+				var lerpVal:Float = CoolUtil.boundTo(elapsed * 9.6, 0, 1);
+				y = FlxMath.lerp(y, (scaledY * yMult) + (FlxG.height * 0.48) + yAdd, lerpVal);
+				if(forceX != Math.NEGATIVE_INFINITY) {
+					screenCenter(X);
+				} else {
+					screenCenter(X);
+				}
+			}
+
 		super.update(elapsed);
 	}
 
@@ -430,6 +445,10 @@ class AlphaCharacter extends FlxSprite
 				x -= 20 / textSize;
 				y -= 5 * textSize;
 				offset.x = 12 * textSize;
+			case '.':
+				y += 45 * textSize;
+				x += 5 * textSize;
+				offset.x += 3 * textSize;
 		}
 	}
 

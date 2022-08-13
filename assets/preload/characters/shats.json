@@ -1,0 +1,144 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				50
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				52
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-96,
+				58
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon Note Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				96
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				58
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				50
+			],
+			"fps": 24,
+			"anim": "talk",
+			"indices": [],
+			"name": "Bon Talk"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				50
+			],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Bon Up note-alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				50
+			],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Bon Down Note-alt0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-80,
+				51
+			],
+			"anim": "stop",
+			"fps": 24,
+			"name": "Bon Stop0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-81,
+				51
+			],
+			"anim": "sad1",
+			"fps": 24,
+			"name": "Bon Sad0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-81,
+				51
+			],
+			"anim": "black",
+			"fps": 24,
+			"name": "Bon Black0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sha_TS_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "shats",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		226,
+		185
+	],
+	"camera_position": [
+		200,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
