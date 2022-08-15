@@ -743,6 +743,11 @@ case 'black-rocket': //Week 1
 
 				add(halloweenBG);
 				
+case 'bucket': //Week 1
+					halloweenBG = new BGSprite('bucket_bg', -250, -100, ['bucket bg0', 'halloweem bg lightning strike']);
+
+				add(halloweenBG);
+				
 case 'lucky': //Lucky You
 	
 	GameOverSubstate.deathSoundName = 'gameOverloop-completesilence';
@@ -1839,6 +1844,10 @@ var repositionShit = 350;
 			addShaderToCamera('camGame', new VCRDistortionEffect(0.1, true, true, true));
 			addShaderToCamera('camHUD', new VCRDistortionEffect(0.1, true, true, true));
 		}
+		if (curSong.toLowerCase()  == "grain" && ClientPrefs.shaders){
+			addShaderToCamera('camGame', new VCRDistortionEffect(0.1, true, true, true));
+			addShaderToCamera('camHUD', new VCRDistortionEffect(0.1, true, true, true));
+		}
 		if (curSong.toLowerCase()  == "roots" && ClientPrefs.shaders){
 			addShaderToCamera('camGame', new VCRDistortionEffect(0.1, true, true, true));
 			addShaderToCamera('camHUD', new VCRDistortionEffect(0.1, true, true, true));
@@ -1937,7 +1946,20 @@ var repositionShit = 350;
 				//timeTxt.alpha = 0;
 				//dad.visible = false;
 				iconP1.changeIcon('BF_PROMO');
-					
+
+				case 'grain':
+				//strumLineNotes.visible = false;
+				//healthBar.alpha = 0;
+				//healthBarBG.alpha = 0;
+				//iconP1.alpha = 0;
+				//iconP2.alpha = 0;
+				//scoreTxt.alpha = 0;
+				//timeBar.alpha = 0;
+				///timeBarBG.alpha = 0;
+				//timeTxt.alpha = 0;
+				//dad.visible = false;
+				iconP1.changeIcon('BF_PROMO');
+				
 			case 'rendezvous':		
 		
 				//strumLineNotes.visible = false;
@@ -6209,7 +6231,15 @@ function rosiescreen1(chance:Float, duration:Float) {
 				remove(toyshopBG);
 			remove(bottomBoppers);
 			toyshop4BG.alpha = 0;
-			
+				case 1008:
+					for (i in playerStrums) {
+							FlxTween.tween(i, {alpha: 0}, 0.1, {ease: FlxEase.linear});
+						}
+						healthBar.alpha = 0;
+						healthBarBG.alpha = 0;
+						scoreTxt.alpha = 0;
+						iconP1.alpha = 0;
+						iconP2.alpha = 0;
 				case 1016:
 					toyshop3BG.alpha = 1;
 					toyshop3BG.animation.play('intro');	
@@ -6224,7 +6254,33 @@ function rosiescreen1(chance:Float, duration:Float) {
 				GameOverSubstate.characterName = 'gf-bg-dead';
 				toyshop3BG.alpha = 0;
 				toyshop2BG.alpha = 1;
+				for (i in playerStrums) {
+							FlxTween.tween(i, {alpha: 1}, 0.1, {ease: FlxEase.linear});
+						}
+						healthBar.alpha = 1;
+						healthBarBG.alpha = 1;
+						scoreTxt.alpha = 1;
+						iconP1.alpha = 1;
+						iconP2.alpha = 1;
 				switch (curStep){
+					case 1040:
+					for (i in playerStrums) {
+							FlxTween.tween(i, {alpha: 1}, 0.1, {ease: FlxEase.linear});
+						}
+						remove(toyshopBG);
+			remove(bottomBoppers);
+			toyshop4BG.alpha = 0;
+			toyshop3BG.alpha = 0;
+				toyshop2BG.alpha = 1;
+						case 1056:
+					for (i in playerStrums) {
+							FlxTween.tween(i, {alpha: 1}, 0.1, {ease: FlxEase.linear});
+						}
+						remove(toyshopBG);
+			remove(bottomBoppers);
+			toyshop4BG.alpha = 0;
+			toyshop3BG.alpha = 0;
+				toyshop2BG.alpha = 1;
 					case 1344:
 				FlxG.sound.play(Paths.sound('nutcracker'), 1);
 				}
@@ -6238,6 +6294,14 @@ function rosiescreen1(chance:Float, duration:Float) {
 				GameOverSubstate.characterName = 'rocket-dead';
 			}
 		
+				
+			if (boyfriend.curCharacter == 'bfdisappear' && SONG.song.toLowerCase() == 'grain')
+			{
+					GameOverSubstate.deathSoundName = 'gameOverloop-completesilence';
+				GameOverSubstate.loopSoundName = 'gameOverloop-completesilence';
+				GameOverSubstate.endSoundName = 'gameOverloop-completesilence';
+				GameOverSubstate.characterName = 'bluescreen';
+			}
 				
 				
 			if (boyfriend.curCharacter == 'bfwaltendarkremix' && SONG.song.toLowerCase() == 'caution (remix)')

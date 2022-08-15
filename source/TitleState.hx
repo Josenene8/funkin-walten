@@ -70,7 +70,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'ROCKET', 'CARROT', 'MAKESHIP', 'APLAPLAC', 'JUSTICE', 'VINNY', 'HEARTACHES', 'CLASSIC', 'FUN'
+		'ROCKET', 'CARROT', 'MAKESHIP', 'APLAPLAC', 'JUSTICE', 'VINNY', 'HEARTACHES', 'CLASSIC', 'FUN', 'BUCKET'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -162,6 +162,9 @@ class TitleState extends MusicBeatState
 		switch(FlxG.save.data.psychDevsEasterEgg.toUpperCase())
 		{
 			case 'ROCKET':
+				titleJSON.gfx += 210;
+				titleJSON.gfy += 40;
+			case 'BUCKET':
 				titleJSON.gfx += 210;
 				titleJSON.gfy += 40;
 			case 'CARROT':
@@ -311,6 +314,11 @@ var redGradient:FlxSprite;
 				logoBl.alpha = 0;
 				remove(bg);
 				var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('bgs2/5'));
+		add(bg);
+		case 'BUCKET':
+				logoBl.alpha = 0;
+				remove(bg);
+				var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('bgs2/10'));
 		add(bg);
 		//bg.frames = Paths.getSparrowAtlas('ROCKET');
 	case 'CARROT':
@@ -778,6 +786,8 @@ var redGradient:FlxSprite;
 			bg.screenCenter();
 							add(bg);
 						FlxG.sound.play(Paths.sound('JingleRocket'));
+					case 'BUCKET':
+						//FlxG.sound.play(Paths.sound('JingleRoots'));
 					case 'CARROT':
 						FlxG.sound.play(Paths.sound('JingleRoots'));
 					case 'MAKESHIP':
@@ -937,6 +947,24 @@ var redGradient:FlxSprite;
 							transitioning = true;
 				
 			});
+			
+				}
+				else if(easteregg == 'BUCKET') 
+				{
+					PlayState.SONG = Song.loadFromJson('grain', 'grain');
+			PlayState.isStoryMode = false;
+			PlayState.storyDifficulty = 2;
+			PlayState.storyWeek = 1;
+			FlxTransitionableState.skipNextTransIn = true;
+			FlxTransitionableState.skipNextTransOut = true;
+			new FlxTimer().start(2, function(tmr:FlxTimer)
+			{
+				LoadingState.loadAndSwitchState(new PlayState());
+							closedState = true;
+							transitioning = true;
+				
+			});
+			
 				}
 				else if(easteregg == 'VINNY') 
 				{

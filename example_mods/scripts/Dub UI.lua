@@ -23,6 +23,24 @@ end
 function onCreatePost()
 if getPropertyFromClass('ClientPrefs', 'squareRatio') == true then
 
+if getPropertyFromClass('ClientPrefs', 'downScroll') == true then
+    makeLuaText('misses','',0,180,30)
+    setTextSize('misses', 25)
+    addLuaText('misses')
+
+    makeLuaText('score','',0,180,0)
+    setTextSize('score', 25)
+    addLuaText('score')
+	
+	 makeLuaText('accuracy','',0,860,30)
+    setTextSize('accuracy', 25)
+    addLuaText('accuracy')
+	
+	 makeLuaText('accuracyname','',0,860,0)
+    setTextSize('accuracyname', 25)
+    addLuaText('accuracyname')
+end
+if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
     makeLuaText('misses','',0,180,685)
     setTextSize('misses', 25)
     addLuaText('misses')
@@ -39,8 +57,26 @@ if getPropertyFromClass('ClientPrefs', 'squareRatio') == true then
     setTextSize('accuracyname', 25)
     addLuaText('accuracyname')
 end
+end
 if getPropertyFromClass('ClientPrefs', 'squareRatio') == false then
+if getPropertyFromClass('ClientPrefs', 'downScroll') == true then
+    makeLuaText('misses','',0,20,30)
+    setTextSize('misses', 27)
+    addLuaText('misses')
 
+    makeLuaText('score','',0,20,0)
+    setTextSize('score', 27)
+    addLuaText('score')
+	
+	 makeLuaText('accuracy','',0,1000,30)
+    setTextSize('accuracy', 27)
+    addLuaText('accuracy')
+	
+	 makeLuaText('accuracyname','',0,1000,0)
+    setTextSize('accuracyname', 27)
+    addLuaText('accuracyname')
+end
+if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
     makeLuaText('misses','',0,20,685)
     setTextSize('misses', 27)
     addLuaText('misses')
@@ -56,6 +92,7 @@ if getPropertyFromClass('ClientPrefs', 'squareRatio') == false then
 	 makeLuaText('accuracyname','',0,1000,685)
     setTextSize('accuracyname', 27)
     addLuaText('accuracyname')
+end
 end
 
  setProperty('scoreTxt.visible', false);

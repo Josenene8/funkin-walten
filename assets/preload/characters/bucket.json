@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				40
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				32
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bon Note Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				33
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bon NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-28,
+				103
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bon Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				29
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bon Down Note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BUCKET_FNF_assets",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "bucket",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		127,
+		39
+	],
+	"camera_position": [
+		-140,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

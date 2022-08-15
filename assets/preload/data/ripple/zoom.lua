@@ -33,11 +33,9 @@ if curBeat == 184 then
       setProperty('defaultCamZoom', 1.1);
    end
 if curBeat == 192 then
-      setProperty('defaultCamZoom', 1.2);
-   end
-if curBeat == 196 then
       setProperty('defaultCamZoom', 0.9);
    end
+
 if curBeat == 212 then
       setProperty('defaultCamZoom', 0.8);
    end

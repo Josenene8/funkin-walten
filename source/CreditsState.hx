@@ -30,6 +30,7 @@ class CreditsState extends MusicBeatState
 	private var creditsStuff:Array<Array<String>> = [];
 
 	var bg:FlxSprite;
+	var bg2:FlxSprite;
 	var descText:FlxText;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
@@ -48,6 +49,10 @@ class CreditsState extends MusicBeatState
 		bg = new FlxSprite().loadGraphic(Paths.image('creditsBG'));
 		add(bg);
 		bg.screenCenter();
+		
+		bg2 = new FlxSprite().loadGraphic(Paths.image('creditstwitter'));
+		add(bg2);
+		bg2.screenCenter();
 		
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
@@ -232,6 +237,11 @@ class CreditsState extends MusicBeatState
 						changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
 					}
 				}
+			}
+			
+			if(FlxG.keys.justPressed.CONTROL)
+			{
+				CoolUtil.browserLoad('https://twitter.com/TheFunkinFiles');
 			}
 
 			if(controls.ACCEPT) {
