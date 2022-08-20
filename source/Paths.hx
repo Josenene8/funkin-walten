@@ -348,7 +348,7 @@ class Paths
 		}
 		#end
 
-		var path = SUtil.getPath() + getPath('images/$key.png', IMAGE, library);
+		var path = getPath('images/$key.png', IMAGE, library);
 		if (OpenFlAssets.exists(path, IMAGE)) {
 			if(!currentTrackedAssets.exists(path)) {
 				var newGraphic:FlxGraphic = FlxG.bitmap.add(path, false, path);
