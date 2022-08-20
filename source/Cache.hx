@@ -21,7 +21,7 @@ import haxe.Exception;
 import flixel.tweens.FlxEase;
 import flixel.util.FlxColor;
 import flixel.tweens.FlxTween;
-#if cpp
+#if windows
 import sys.FileSystem;
 import sys.io.File;
 #end
@@ -71,15 +71,15 @@ class Cache extends MusicBeatState
 		shitz.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		//add(shitz);
 
-		#if cpp
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath(SUtil.getPath() + "assets/shared/images/characterload")))
+		#if windows
+		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/characterload")))
 		{
 			if (!i.endsWith(".png"))
 				continue;
 			images.push(i);
 		}
 
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath(SUtil.getPath() + "assets/songs")))
+		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/songs")))
 		{
 			music.push(i);
 		}
