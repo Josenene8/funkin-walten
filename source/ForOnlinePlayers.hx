@@ -16,6 +16,9 @@ class ForOnlinePlayers extends MusicBeatState
 		
 		add(screen);
 		
+		#if android
+                addVirtualPad(NONE, A);
+                #end
 		
 	}
 	
