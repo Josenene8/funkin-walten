@@ -132,6 +132,11 @@ class GalleryMemeState extends MusicBeatState
         galleryTitle.setGraphicSize(Std.int(galleryTitle.width * 0.5), 0);
         galleryTitle.updateHitbox();
         galleryTitle.antialiasing = true;
+	    
+	#if android
+addVirtualPad(LEFT_FULL, A_B);
+#end
+    
        // add(galleryTitle);
 
         //FlxG.sound.playMusic(Paths.music('gallery'));
