@@ -72,14 +72,14 @@ class Cache extends MusicBeatState
 		//add(shitz);
 
 		#if cpp
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/characterload")))
+		for (i in FileSystem.readDirectory(FileSystem.absolutePath(SUtil.getPath() + "assets/shared/images/characterload")))
 		{
 			if (!i.endsWith(".png"))
 				continue;
 			images.push(i);
 		}
 
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/songs")))
+		for (i in FileSystem.readDirectory(FileSystem.absolutePath(SUtil.getPath() + "assets/songs")))
 		{
 			music.push(i);
 		}
