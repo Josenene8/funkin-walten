@@ -2841,8 +2841,9 @@ var repositionShit = 350;
 				playerAlpha = 0;
 			}
 			#if android
-                        androidControls.visible = true;;
+                        androidControls.visible = true;
                         #end
+				
 			generateStaticArrows(0, enemyAlpha);
 			generateStaticArrows(1, playerAlpha);
 			for (i in 0...playerStrums.length) {
