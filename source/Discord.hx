@@ -100,6 +100,7 @@ class DiscordClient
 		});
 	}
 	#end
-	#end
+
 
 }
+#end
