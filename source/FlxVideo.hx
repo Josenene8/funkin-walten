@@ -3,6 +3,9 @@ import openfl.net.NetConnection;
 import openfl.net.NetStream;
 import openfl.events.NetStatusEvent;
 import openfl.media.Video;
+#elseif android
+import extension.videoview.VideoView;
+import extension.androidtools;
 #else
 import openfl.events.Event;
 import vlc.VlcBitmap;
@@ -36,6 +39,7 @@ class FlxVideo extends FlxBasic {
 				player.height = FlxG.height;
 			}
 		};
+		netStream.play(name);
 		netConnect.addEventListener(NetStatusEvent.NET_STATUS, function(event:NetStatusEvent) {
 			if(event.info.code == "NetStream.Play.Complete") {
 				netStream.dispose();
@@ -44,6 +48,14 @@ class FlxVideo extends FlxBasic {
 				if(finishCallback != null) finishCallback();
 			}
 		});
+		netStream.play(name);
+	        #elseif android
+                VideoView.playVideo(tools.getFileUrl(name));
+                VideoView.onCompletion = function(){
+		        if (finishCallback != null){
+			        finishCallback();
+		        }
+                }
 		netStream.play(name);
 
 		#elseif desktop
