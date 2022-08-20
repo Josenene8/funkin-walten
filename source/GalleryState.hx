@@ -177,6 +177,10 @@ class GalleryState extends MusicBeatState
 		//galleryTitle.screenCenter(X);
 
         FlxG.sound.playMusic(Paths.music('gallery'));
+	    #if android
+addVirtualPad(LEFT_FULL, A_B);
+#end
+
         // Conductor.changeBPM(71);
     }
 
